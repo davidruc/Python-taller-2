@@ -15,8 +15,8 @@ millones de pesos.
 """
 
 def valorAPagar ():
-    SueldoKm = float(input(f"ingrese el sueldo básico por kilometro del deportista: "))
-    noKmrecorridos = float(input(f"¿Cuál fue el número de kilometros recorridos por el deportista durante toda la vuelta? "))
+    SueldoKm = float(input(f"\n Ingrese el sueldo básico por kilometro del deportista: \n"))
+    noKmrecorridos = float(input(f"¿Cuál fue el número de kilometros recorridos por el deportista durante toda la vuelta?\n "))
     camisetalider = float(input(f"¿Cuantos kilometros fue lider?: "))
     
     if camisetalider >= 1800:
