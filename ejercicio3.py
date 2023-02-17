@@ -23,6 +23,6 @@ def valorAPagar ():
         calculo = SueldoKm*(noKmrecorridos-camisetalider) + camisetalider*SueldoKm*1.25 
     else:
         calculo = SueldoKm*noKmrecorridos
-    print(calculo)
+    print(f"\n El pago para el ciclista será de ${calculo} pesos.")
     
 valorAPagar()
