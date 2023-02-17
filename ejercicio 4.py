@@ -40,14 +40,5 @@ def funcionArticulomasVendido ():
     newlist = []
     for j in range(4):
         newlist += union2[j]
-
     print(f"y su producto estrella fue {newlist[1]}")
-
-    
-    # union = sorted(union, key=lambda union: union[2], reverse=True) 
-    # print(f"\n Y el artículo más vendido de este almacen fue {union[0][1]}")
-
 funcionArticulomasVendido()
-
-# def funcionAlmacenqmasvendio():
-
